@@ -35,8 +35,8 @@ export const portfolioData: PortfolioData = {
       image: 'https://xperiun.com/wp-content/uploads/2023/04/DASHBOARD_DE_VENDAS4-1024x575.png',
       images: [
           'https://xperiun.com/wp-content/uploads/2023/04/DASHBOARD_DE_VENDAS4-1024x575.png',
-          '/assets/images/Dashboard-BI.png',
-          '/assets/images/Dashboard-BI.png'
+          'assets/images/Dashboard-BI.png',
+          'assets/images/Dashboard-BI.png'
       ],
       tags: ['Power BI', 'SQL', 'Python', 'Web Scraping', 'API Rest'],
       projectUrl: '#',
@@ -49,8 +49,8 @@ export const portfolioData: PortfolioData = {
       image: 'https://xperiun.com/wp-content/uploads/2023/04/DASHBOARD_DE_VENDAS4-1024x575.png',
       images: [
           'https://xperiun.com/wp-content/uploads/2023/04/DASHBOARD_DE_VENDAS4-1024x575.png',
-          '/assets/images/Dashboard-BI.png',
-          '/assets/images/Dashboard-BI.png'
+          'assets/images/Dashboard-BI.png',
+          'assets/images/Dashboard-BI.png'
       ],
       tags: ['Power BI', 'SQL', 'Python', 'Web Scraping', 'API Rest'],
       projectUrl: '#',
@@ -60,11 +60,11 @@ export const portfolioData: PortfolioData = {
       title: 'Previsão de Vendas com Machine Learning',
       longDescription: 'O desafio era reduzir o excesso de estoque e as faltas de produtos. Utilizando dados históricos de vendas, desenvolvi um modelo de previsão de séries temporais (SARIMA) em Python. O modelo foi treinado e validado, resultando em uma melhoria de 15% na precisão das previsões em comparação com os métodos anteriores. Isso levou a um planejamento de estoque mais eficiente e redução de custos.',
       // TODO: Coloque as imagens na pasta `public/assets/images` e atualize os nomes dos arquivos.
-      image: '/assets/images/sales-forecast/main.png',
+      image: 'assets/images/sales-forecast/main.png',
       images: [
-          '/assets/images/sales-forecast/image1.png',
-          '/assets/images/sales-forecast/image2.png',
-          '/assets/images/sales-forecast/image3.png'
+          'assets/images/sales-forecast/image1.png',
+          'assets/images/sales-forecast/image2.png',
+          'assets/images/sales-forecast/image3.png'
       ],
       tags: ['Python', 'Scikit-learn', 'Pandas', 'Jupyter', 'Matplotlib'],
       projectUrl: '#',
@@ -74,11 +74,11 @@ export const portfolioData: PortfolioData = {
       title: 'Otimização da Cadeia de Suprimentos',
       longDescription: 'Neste projeto, analisei um grande conjunto de dados de logística para identificar ineficiências na cadeia de suprimentos. Usando SQL para consulta de dados e Tableau para visualização, identifiquei os principais gargalos e propus rotas de entrega otimizadas. A implementação das recomendações resultou em uma economia de 10% nos custos de logística e uma redução no tempo de entrega.',
       // TODO: Coloque as imagens na pasta `public/assets/images` e atualize os nomes dos arquivos.
-      image: '/assets/images/supply-chain/main.png',
+      image: 'assets/images/supply-chain/main.png',
       images: [
-          '/assets/images/supply-chain/image1.png',
-          '/assets/images/supply-chain/image2.png',
-          '/assets/images/supply-chain/image3.png'
+          'assets/images/supply-chain/image1.png',
+          'assets/images/supply-chain/image2.png',
+          'assets/images/supply-chain/image3.png'
       ],
       tags: ['SQL', 'Tableau', 'Excel', 'Otimização de Processos'],
       projectUrl: '#',
@@ -87,11 +87,11 @@ export const portfolioData: PortfolioData = {
       title: 'Dashboard de Análise de Churn',
       longDescription: 'Para ajudar a empresa a entender por que os clientes estavam cancelando seus serviços, criei um dashboard de análise de churn. O painel consolida dados de várias fontes e usa visualizações para destacar os principais fatores de risco, o perfil dos clientes que cancelam e o impacto financeiro do churn. Isso permitiu que a equipe de retenção desenvolvesse estratégias mais focadas e eficazes.',
       // TODO: Coloque as imagens na pasta `public/assets/images` e atualize os nomes dos arquivos.
-      image: '/assets/images/churn-dashboard/main.png',
+      image: 'assets/images/churn-dashboard/main.png',
       images: [
-          '/assets/images/churn-dashboard/image1.png',
-          '/assets/images/churn-dashboard/image2.png',
-          '/assets/images/churn-dashboard/image3.png'
+          'assets/images/churn-dashboard/image1.png',
+          'assets/images/churn-dashboard/image2.png',
+          'assets/images/churn-dashboard/image3.png'
       ],
       tags: ['Tableau', 'SQL', 'Customer Success'],
       projectUrl: '#',
