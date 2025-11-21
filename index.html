@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio de Analista de Dados</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class', // Habilitar modo escuro
+        theme: {
+          extend: {
+            colors: {
+              // Tema Claro (Original)
+              'flat-bg': '#F9FAFB',
+              'flat-sidebar-bg': '#F3F4F6',
+              'flat-surface': '#FFFFFF',
+              'flat-primary': '#0C3452',
+              'flat-text-primary': '#374151',
+              'flat-text-secondary': '#6B7280',
+              'flat-border': '#E5E7EB',
+              'flat-accent': '#E7ECF0',
+
+              // Tema Escuro
+              'flat-bg-dark': '#111827',
+              'flat-sidebar-bg-dark': '#1F2937',
+              'flat-surface-dark': '#1F2937',
+              'flat-primary-dark': '#6A9AB0',
+              'flat-text-primary-dark': '#F9FAFB',
+              'flat-text-secondary-dark': '#9CA3AF',
+              'flat-border-dark': '#374151',
+              'flat-accent-dark': '#374151',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'fade-in': 'fadeIn 0.6s ease-out forwards',
+              'fade-in-up': 'fadeInUp 0.6s ease-out forwards',
+              'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              fadeIn: {
+                '0%': { opacity: 0 },
+                '100%': { opacity: 1 },
+              },
+              fadeInUp: {
+                '0%': { opacity: 0, transform: 'translateY(20px)' },
+                '100%': { opacity: 1, transform: 'translateY(0)' },
+              },
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background-color: #CBD5E1;
+        border-radius: 20px;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background-color: #4B5563;
+      }
+    </style>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.553.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-flat-bg text-flat-text-primary dark:bg-flat-bg-dark dark:text-flat-text-primary-dark font-sans h-full overflow-x-hidden selection:bg-flat-primary selection:text-white dark:selection:bg-flat-primary-dark">
+    <div id="root" class="h-full"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
